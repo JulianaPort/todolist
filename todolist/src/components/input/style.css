@@ -1,0 +1,6 @@
+.input-todo input{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+}

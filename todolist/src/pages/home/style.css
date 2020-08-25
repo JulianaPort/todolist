@@ -1,0 +1,97 @@
+.home-todo nav {
+  border-bottom: 1px solid #bdbdbd;
+  margin-bottom: 6vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home-todo nav button {
+  border: none;
+  background: none;
+  color: #333333;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 1.7rem;
+  min-width: 4vw;
+}
+
+.home-todo nav button:focus {
+  outline-style: none;
+}
+.home-todo nav button.activated {
+  border-bottom: 2px solid #6da6f2;
+}
+
+.home-todo section button {
+  background: #6da6f2;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 0.3rem;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  padding: 0.4rem 6vw;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+
+.home-todo section div Input {
+  width: 100%;
+}
+
+.home-todo section > div div{
+  width: 100%;
+}
+
+.home-todo > section > div{
+  display: flex;
+  justify-content: center;
+}
+
+.home-todo {
+  margin: 0 20vw;
+}
+
+.home-todo > main {
+  max-height: 50vh;
+  min-height: 10vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.home-todo .btn-delete {
+  text-align: right;
+}
+
+.home-todo .btn-delete button {
+  background: #f18989;
+  border-radius: 0.3rem;
+  border: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  padding: 0.6rem 2vw;
+  color: #ffffff;
+}
+.home-todo .btn-delete button span {
+  margin-left: 0.3rem;
+}
+
+/* .home-todo > main .btn-delete button i {
+    margin-right: 0.5rem;
+} */
+
+@media (min-width: 590px) {
+  .home-todo section button {
+    padding: 0.4rem 3vw;
+  }
+
+  .home-todo {
+    margin: 0 29vw;
+  }
+}
